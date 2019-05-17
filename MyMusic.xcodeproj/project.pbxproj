@@ -14,6 +14,9 @@
 		2FD79B53219070C30019C770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD79B51219070C30019C770 /* LaunchScreen.storyboard */; };
 		2FD79B5E219070C40019C770 /* MyMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD79B5D219070C40019C770 /* MyMusicTests.swift */; };
 		2FD79B69219070C40019C770 /* MyMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD79B68219070C40019C770 /* MyMusicUITests.swift */; };
+		2FD79B79219077820019C770 /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FD79B76219077820019C770 /* cymbal.mp3 */; };
+		2FD79B7A219077820019C770 /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FD79B77219077820019C770 /* backmusic.mp3 */; };
+		2FD79B7B219077820019C770 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FD79B78219077820019C770 /* guitar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2FD79B64219070C40019C770 /* MyMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD79B68219070C40019C770 /* MyMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicUITests.swift; sourceTree = "<group>"; };
 		2FD79B6A219070C40019C770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD79B76219077820019C770 /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cymbal.mp3; sourceTree = "<group>"; };
+		2FD79B77219077820019C770 /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
+		2FD79B78219077820019C770 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				2FD79B4F219070C30019C770 /* Assets.xcassets */,
 				2FD79B51219070C30019C770 /* LaunchScreen.storyboard */,
 				2FD79B54219070C30019C770 /* Info.plist */,
+				2FD79B77219077820019C770 /* backmusic.mp3 */,
+				2FD79B76219077820019C770 /* cymbal.mp3 */,
+				2FD79B78219077820019C770 /* guitar.mp3 */,
 			);
 			path = MyMusic;
 			sourceTree = "<group>";
@@ -229,9 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD79B79219077820019C770 /* cymbal.mp3 in Resources */,
 				2FD79B53219070C30019C770 /* LaunchScreen.storyboard in Resources */,
+				2FD79B7B219077820019C770 /* guitar.mp3 in Resources */,
 				2FD79B50219070C30019C770 /* Assets.xcassets in Resources */,
 				2FD79B4E219070BE0019C770 /* Main.storyboard in Resources */,
+				2FD79B7A219077820019C770 /* backmusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
